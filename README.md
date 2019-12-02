@@ -56,6 +56,35 @@ nrm add npm
 - 添加账号
 nrm adduser
 - 输入账号密码
+- 设置`package.json`中接口暴露文件
+```
+  "main": "dist/discover_service.js",  //你需要暴露的文件的 js 执行文件
+  "types": "dist/discover_service.d.ts", //你需要暴露文件的申明文件
+```
+- 设置`tsconfig.json`的属性
+
+    ```
+    "target": "es2017",                         
+    "module": "commonjs", 
+    "declaration": true,    
+    "sourceMap": true,    
+    "outDir": "./dist",  
+    "strict": true,       
+     "strictNullChecks": true,    
+```
+- 集成到工程中必须包括以下文件,
+
+    ```
+├── dist
+│   ├── discover_service.d.ts
+│   ├── discover_service.js
+│   ├── discover_service.js.map
+├── nodemon.json
+├── package.json
+├── src
+│   └── discover_service.ts
+└── tsconfig.json
+```
 
 ## 忽略文件
 - .gitignore

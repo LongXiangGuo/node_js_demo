@@ -1,0 +1,18 @@
+
+
+
+### News
+GET http://localhost:8080/api/news
+
+### Local host
+GET http://localhost:8080/
+
+###
+GET http://omcenewssvcestg.chinacloudsites.cn/api/news
+X-AppKey: 2014_MyBMW837
+x-btcapi-usid: 05e4c12d-2182-4862-928a-a08cc79a5dec
+
+@Host=http://localhost:8080
+### News
+GET {{Host}}/api/news
+x-usid: 05e4c12d-2182-4862-928a-a08cc79a5dec

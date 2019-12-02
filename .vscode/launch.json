@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Demo Project Debug",
             "preLaunchTask": "tsc: build - tsconfig.json",
             "skipFiles": [
                 "<node_internals>/**"

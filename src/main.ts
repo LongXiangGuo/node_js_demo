@@ -1,9 +1,8 @@
 import Koa from 'koa';
 import Router from 'koa-router';
-import * as evn from 'dotenv';
 import { config } from './config';
 import { Service } from './services';
-
+import { DiscoverService } from 'discover1-node-pacakge';
 const app = new Koa();
 const router = new Router();
 

@@ -1,0 +1,25 @@
+{
+  "name": "node_project_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bmw-news-api": "^1.0.2",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.52",
+    "@types/koa-router": "^7.0.42",
+    "@types/node": "^12.12.8",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.7.2"
+  }
+}
